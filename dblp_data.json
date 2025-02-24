@@ -1,0 +1,548 @@
+{
+    "UNIVERSITY": [
+        {
+            "ID": 1,
+            "NOM": "University of Rennes, IRISA, Rennes, France",
+            "Coord": ""
+        },
+        {
+            "ID": 2,
+            "NOM": "Grenoble Institute of Technology (Grenoble INP), Grenoble, France",
+            "Coord": ""
+        }
+    ],
+    "AFFILIATION": [
+        {
+            "UNIVERSITY.ID": 1,
+            "RESEARCHER.PID": "11/2374"
+        },
+        {
+            "UNIVERSITY.ID": 2,
+            "RESEARCHER.PID": "11/2374"
+        }
+    ],
+    "RESEARCHER": {
+        "PID": "11/2374",
+        "nom": "Laurent d'Orazio",
+        "prenom": "",
+        "scraped": 1,
+        "URLs": [
+            "https://people.irisa.fr/Laurent.Dorazio/",
+            "https://perso.univ-rennes1.fr/laurent.dorazio/",
+            "https://orcid.org/0000-0001-8614-1848",
+            "https://www.wikidata.org/entity/Q131109108"
+        ]
+    },
+    "ARTICLE": [],
+    "CONTRIBUTIONS": [],
+    "COAUTHORS": [
+        {
+            "name": "Amr El Abbadi",
+            "pid": "a/AmrElAbbadi"
+        },
+        {
+            "name": "Mirna Adriani",
+            "pid": "15/6057"
+        },
+        {
+            "name": "Juba Agoun",
+            "pid": "250/8901"
+        },
+        {
+            "name": "Baptiste Alix",
+            "pid": "311/1744"
+        },
+        {
+            "name": "Tristan Allard",
+            "pid": "05/1478"
+        },
+        {
+            "name": "Mirian Halfeld Ferrari Alves",
+            "pid": "f/MirianHalfeldFerrariAlves"
+        },
+        {
+            "name": "Fr\u00e9d\u00e9ric Andr\u00e8s",
+            "pid": "a/FredericAndres"
+        },
+        {
+            "name": "Zachary Arani",
+            "pid": "234/2670"
+        },
+        {
+            "name": "Zach Arani",
+            "pid": "Unknown PID"
+        },
+        {
+            "name": "Jason Arenson",
+            "pid": "213/1171"
+        },
+        {
+            "name": "Sabeur Aridhi",
+            "pid": "09/7833"
+        },
+        {
+            "name": "Mile Arnedo",
+            "pid": "67/8355"
+        },
+        {
+            "name": "Bruno Bachelet",
+            "pid": "73/2374"
+        },
+        {
+            "name": "Olivier Barais",
+            "pid": "97/947"
+        },
+        {
+            "name": "Taras Basiuk",
+            "pid": "265/9623"
+        },
+        {
+            "name": "Laurent Beaulieu",
+            "pid": "214/6919"
+        },
+        {
+            "name": "Brett Becker 0001",
+            "pid": "315/0832-1"
+        },
+        {
+            "name": "Akram Bensalem",
+            "pid": "384/2651"
+        },
+        {
+            "name": "Esther Bernard",
+            "pid": "352/1787"
+        },
+        {
+            "name": "Elisa Bertino",
+            "pid": "b/ElisaBertino"
+        },
+        {
+            "name": "Sandro Bimonte",
+            "pid": "87/3974"
+        },
+        {
+            "name": "No\u00e9 Le Blavec",
+            "pid": "395/3497"
+        },
+        {
+            "name": "Georges Bossert",
+            "pid": "147/3374"
+        },
+        {
+            "name": "Jalil Boukhobza",
+            "pid": "94/2593"
+        },
+        {
+            "name": "Gwenaelle Carfantan",
+            "pid": "265/9620"
+        },
+        {
+            "name": "Emmanuel Casseau",
+            "pid": "75/3606"
+        },
+        {
+            "name": "Harold E. Castro",
+            "pid": "29/7270"
+        },
+        {
+            "name": "Yahia Chabane",
+            "pid": "50/10537"
+        },
+        {
+            "name": "Hutchatai Chanlekha",
+            "pid": "71/7120"
+        },
+        {
+            "name": "Drake Chapman",
+            "pid": "272/7179"
+        },
+        {
+            "name": "Yeow Wei Choong",
+            "pid": "84/6869"
+        },
+        {
+            "name": "Matthew Damigos",
+            "pid": "55/3599"
+        },
+        {
+            "name": "Florian Daniel",
+            "pid": "07/4356"
+        },
+        {
+            "name": "J\u00e9r\u00f4me Darmont",
+            "pid": "d/JeromeDarmont"
+        },
+        {
+            "name": "Jean-Emile Dartois",
+            "pid": "153/7542"
+        },
+        {
+            "name": "Yves Denneulin",
+            "pid": "38/6122"
+        },
+        {
+            "name": "Aaron Duane",
+            "pid": "156/1632"
+        },
+        {
+            "name": "Andrea Enrici",
+            "pid": "151/1408"
+        },
+        {
+            "name": "Justine Fouill\u00e9",
+            "pid": "311/1310"
+        },
+        {
+            "name": "Michail Georgoulakis",
+            "pid": "320/2008"
+        },
+        {
+            "name": "Michail Georgoulakis Misegiannis",
+            "pid": "Unknown PID"
+        },
+        {
+            "name": "Carlos E. G\u00f3mez",
+            "pid": "49/7267"
+        },
+        {
+            "name": "Le Gruenwald",
+            "pid": "g/LeGruenwald"
+        },
+        {
+            "name": "Mohand-Said Hacid",
+            "pid": "h/MohandSaidHacid"
+        },
+        {
+            "name": "Mohand-Sa\u00efd Hacid",
+            "pid": "Unknown PID"
+        },
+        {
+            "name": "Mohamed Handaoui",
+            "pid": "269/2155"
+        },
+        {
+            "name": "Carmem S. Hara",
+            "pid": "26/3914"
+        },
+        {
+            "name": "Carmem Satie Hara",
+            "pid": "Unknown PID"
+        },
+        {
+            "name": "Hariz Hasnan",
+            "pid": "395/3229"
+        },
+        {
+            "name": "Florian Helff",
+            "pid": "176/5023"
+        },
+        {
+            "name": "Van Long Nguyen Huu",
+            "pid": "272/4447"
+        },
+        {
+            "name": "Bj\u00f6rn \u00de\u00f3r J\u00f3nsson 0001",
+            "pid": "j/BjornTorJonsson1"
+        },
+        {
+            "name": "Fabrice Jouanot",
+            "pid": "03/2772"
+        },
+        {
+            "name": "Hugo Joubert",
+            "pid": "383/6332"
+        },
+        {
+            "name": "Amine Kacete",
+            "pid": "180/6426"
+        },
+        {
+            "name": "Eleftherios Kalogeros",
+            "pid": "133/2548"
+        },
+        {
+            "name": "Thanapat Kangkachit",
+            "pid": "43/4625"
+        },
+        {
+            "name": "Verena Kantere",
+            "pid": "k/VerenaKantere"
+        },
+        {
+            "name": "Vasiliki Kantere",
+            "pid": "Unknown PID"
+        },
+        {
+            "name": "Asanee Kawtrakul",
+            "pid": "27/7030"
+        },
+        {
+            "name": "Omar Shahbaz Khan",
+            "pid": "239/6006"
+        },
+        {
+            "name": "Dimitris Kotzinos",
+            "pid": "26/1664"
+        },
+        {
+            "name": "N\u00e1dia P. Kozievitch",
+            "pid": "20/8212"
+        },
+        {
+            "name": "Cyril Labb\u00e9",
+            "pid": "l/CyrilLabbe"
+        },
+        {
+            "name": "Julien Lallet",
+            "pid": "41/2927"
+        },
+        {
+            "name": "Vincent Lannurien",
+            "pid": "352/1505"
+        },
+        {
+            "name": "Anne Laurent",
+            "pid": "l/AnneLaurent"
+        },
+        {
+            "name": "Dominique Laurent 0001",
+            "pid": "l/DominiqueLaurent"
+        },
+        {
+            "name": "Trung-Dung Le",
+            "pid": "234/2832"
+        },
+        {
+            "name": "Eleazar Leal",
+            "pid": "161/9210"
+        },
+        {
+            "name": "Maria C. A. Leite",
+            "pid": "272/7044"
+        },
+        {
+            "name": "Guilherme Sperb Machado",
+            "pid": "71/6756"
+        },
+        {
+            "name": "Mondher Maddouri",
+            "pid": "62/2885"
+        },
+        {
+            "name": "Marouan Maghzaoui",
+            "pid": "247/6938"
+        },
+        {
+            "name": "Xavier Marin",
+            "pid": "170/4984"
+        },
+        {
+            "name": "Claudia Marinica",
+            "pid": "81/4386"
+        },
+        {
+            "name": "Baraa Mohamad",
+            "pid": "120/6757"
+        },
+        {
+            "name": "Jonathan Mullen",
+            "pid": "158/5093"
+        },
+        {
+            "name": "Martin A. Musicante",
+            "pid": "72/5025"
+        },
+        {
+            "name": "Elsa Negre",
+            "pid": "94/3658"
+        },
+        {
+            "name": "Ba Hung Ngo",
+            "pid": "138/9184"
+        },
+        {
+            "name": "Engelbert Mephu Nguifo",
+            "pid": "10/3832"
+        },
+        {
+            "name": "Thi Lan Huong Nguyen",
+            "pid": "199/1666"
+        },
+        {
+            "name": "Thi-Van-Anh Nguyen",
+            "pid": "116/4833"
+        },
+        {
+            "name": "Danh Nguyen-Cong",
+            "pid": "160/1078"
+        },
+        {
+            "name": "Makoto Onizuka",
+            "pid": "19/3497"
+        },
+        {
+            "name": "Pierre Ouvrard",
+            "pid": "373/2175"
+        },
+        {
+            "name": "Johyn Papin",
+            "pid": "225/1804"
+        },
+        {
+            "name": "St\u00e9phane Paquelet",
+            "pid": "69/528"
+        },
+        {
+            "name": "Olivier Peau",
+            "pid": "265/9613"
+        },
+        {
+            "name": "Mikael Perrin",
+            "pid": "181/8380"
+        },
+        {
+            "name": "Romain Perriot",
+            "pid": "138/1224"
+        },
+        {
+            "name": "J\u00e9r\u00e9my Pfeifer",
+            "pid": "138/1161"
+        },
+        {
+            "name": "An-Truong Tran Phan",
+            "pid": "384/9001"
+        },
+        {
+            "name": "Thuong-Cang Phan",
+            "pid": "135/1832"
+        },
+        {
+            "name": "Matthieu Pilven",
+            "pid": "251/6112"
+        },
+        {
+            "name": "Omer F. Rana",
+            "pid": "r/OmerFRana"
+        },
+        {
+            "name": "Herv\u00e9 Rannou",
+            "pid": "265/9619"
+        },
+        {
+            "name": "Christophe Rey",
+            "pid": "11/567"
+        },
+        {
+            "name": "H\u00e9l\u00e8ne de Ribaupierre",
+            "pid": "52/10483"
+        },
+        {
+            "name": "Philippe Rigaux",
+            "pid": "r/PRigaux"
+        },
+        {
+            "name": "Matthieu Rochard",
+            "pid": "311/0387"
+        },
+        {
+            "name": "Claudia Roncancio",
+            "pid": "r/CRoncancio"
+        },
+        {
+            "name": "Taofik Sa\u00efdi",
+            "pid": "08/5644"
+        },
+        {
+            "name": "Stefanie Scherzinger",
+            "pid": "s/StefanieScherzinger"
+        },
+        {
+            "name": "Cam\u00e9lia Slimani",
+            "pid": "251/9315"
+        },
+        {
+            "name": "Chanattan Sok",
+            "pid": "384/2473"
+        },
+        {
+            "name": "Nicolas Spyratos",
+            "pid": "s/NicolasSpyratos"
+        },
+        {
+            "name": "Burkhard Stiller",
+            "pid": "00/4292"
+        },
+        {
+            "name": "Reyyan Tekin",
+            "pid": "302/5131"
+        },
+        {
+            "name": "Constance Thierry",
+            "pid": "230/4192"
+        },
+        {
+            "name": "Damien Alvarez de Toledo",
+            "pid": "272/7123"
+        },
+        {
+            "name": "Dimitri Tombroff",
+            "pid": "94/2724"
+        },
+        {
+            "name": "Hoang Van Tran",
+            "pid": "171/2655"
+        },
+        {
+            "name": "Nga Tran",
+            "pid": "80/4976"
+        },
+        {
+            "name": "Thi-To-Quyen Tran",
+            "pid": "228/3089"
+        },
+        {
+            "name": "Mamadou Kaba Traor\u00e9",
+            "pid": "55/1407"
+        },
+        {
+            "name": "Remi Uhartegaray",
+            "pid": "361/1201"
+        },
+        {
+            "name": "Olivier Valentin",
+            "pid": "65/1620"
+        },
+        {
+            "name": "Andrei Vancea",
+            "pid": "18/4558"
+        },
+        {
+            "name": "Johan Verdon",
+            "pid": "395/2978"
+        },
+        {
+            "name": "Mar\u00eda-Del-Pilar Villamil",
+            "pid": "95/6334"
+        },
+        {
+            "name": "Ricardo Villanueva",
+            "pid": "59/8355"
+        },
+        {
+            "name": "Kitsana Waiyamai",
+            "pid": "01/568"
+        },
+        {
+            "name": "Chenxiao Wang",
+            "pid": "152/5496"
+        },
+        {
+            "name": "Olivier Weppe",
+            "pid": "214/6880"
+        },
+        {
+            "name": "SidAhmed Yalles",
+            "pid": "318/8841"
+        }
+    ]
+}
