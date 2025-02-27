@@ -15,3 +15,4 @@ WITH (
 SELECT continent, COUNT(country) from pays_continent GROUP BY continent;
 
 SELECT country from pays_continent WHERE LENGTH(country) < 5;
+
