@@ -13,536 +13,2734 @@
     ],
     "AFFILIATION": [
         {
-            "UNIVERSITY.ID": 1,
+            "UNIVERSITY.id": 1,
             "RESEARCHER.PID": "11/2374"
         },
         {
-            "UNIVERSITY.ID": 2,
+            "UNIVERSITY.id": 2,
             "RESEARCHER.PID": "11/2374"
         }
     ],
-    "RESEARCHER": {
-        "PID": "11/2374",
-        "nom": "Laurent d'Orazio",
-        "prenom": "",
-        "scraped": 1,
-        "URLs": [
-            "https://people.irisa.fr/Laurent.Dorazio/",
-            "https://perso.univ-rennes1.fr/laurent.dorazio/",
-            "https://orcid.org/0000-0001-8614-1848",
-            "https://www.wikidata.org/entity/Q131109108"
-        ]
-    },
-    "ARTICLE": [],
-    "CONTRIBUTIONS": [],
-    "COAUTHORS": [
+    "RESEARCHER": [
+        {
+            "PID": "11/2374",
+            "nom": "d'Orazio",
+            "prenom": "Laurent",
+            "scraped": 1
+        }
+    ],
+    "PAPER": [
+        {
+            "doi": "10.1007/978-981-96-2074-6_18",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Multi-Dimensional Exploration of Media Collection Metadata.",
+            "venue": "MMM (5)",
+            "year": "2025",
+            "pages": "165-172",
+            "ee": "https://doi.org/10.1007/978-981-96-2074-6_18",
+            "url_dblp": "https://dblp.org/rec/conf/mmm/KhanDHBOVdTJ25"
+        },
+        {
+            "doi": "10.1109/MIC.2024.3511332",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "HeROsim: An Allocation and Scheduling Simulator for Evaluating Serverless Orchestration Policies.",
+            "venue": "IEEE Internet Comput.",
+            "year": "2024",
+            "pages": "8-16",
+            "ee": "https://doi.org/10.1109/MIC.2024.3511332",
+            "url_dblp": "https://dblp.org/rec/journals/internet/LannuriendBPB24"
+        },
+        {
+            "doi": "10.1109/CCGrid59990.2024.00071",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "HeROcache: Storage-Aware Scheduling in Heterogeneous Serverless Edge - The Case of IDS.",
+            "venue": "CCGrid",
+            "year": "2024",
+            "pages": "587-597",
+            "ee": "https://doi.org/10.1109/CCGrid59990.2024.00071",
+            "url_dblp": "https://dblp.org/rec/conf/ccgrid/LannurienSdBPB24"
+        },
+        {
+            "doi": "10.1007/978-981-97-5575-2_45",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "GUESS: MonitorinG Join qUery Execution in Serverless and Serverful Spark.",
+            "venue": "DASFAA (7)",
+            "year": "2024",
+            "pages": "489-493",
+            "ee": "https://doi.org/10.1007/978-981-97-5575-2_45",
+            "url_dblp": "https://dblp.org/rec/conf/dasfaa/PhandPG24"
+        },
+        {
+            "doi": "10.1007/978-3-031-64605-8_21",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Form-Based Semantic Caching on Time Series.",
+            "venue": "ICCSA (1)",
+            "year": "2024",
+            "pages": "298-315",
+            "ee": "https://doi.org/10.1007/978-3-031-64605-8_21",
+            "url_dblp": "https://dblp.org/rec/conf/iccsa/LeKd24"
+        },
+        {
+            "doi": "10.1145/3676288.3676305",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "WebAssembly serverless join: A Study of its Application.",
+            "venue": "SSDBM",
+            "year": "2024",
+            "pages": "16:1-16:4",
+            "ee": "https://doi.org/10.1145/3676288.3676305",
+            "url_dblp": "https://dblp.org/rec/conf/ssdbm/SokdTT24"
+        },
+        {
+            "doi": "10.1145/3676288.3676304",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "VG-Prefetcher Cache: Towards Edge-Based Time Series Data Management Using Visibility Graph Prefetching.",
+            "venue": "SSDBM",
+            "year": "2024",
+            "pages": "18:1-18:4",
+            "ee": "https://doi.org/10.1145/3676288.3676304",
+            "url_dblp": "https://dblp.org/rec/conf/ssdbm/BensalemdLE24"
+        },
+        {
+            "doi": "10.1109/CCGrid57682.2023.00024",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "HeROfake: Heterogeneous Resources Orchestration in a Serverless Cloud - An Application to Deepfake Detection.",
+            "venue": "CCGrid",
+            "year": "2023",
+            "pages": "154-165",
+            "ee": "https://doi.org/10.1109/CCGrid57682.2023.00024",
+            "url_dblp": "https://dblp.org/rec/conf/ccgrid/LannuriendBBWBKPB23"
+        },
+        {
+            "doi": "10.1109/FUZZ52849.2023.10309759",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Scalable Computation of Fuzzy Joins Over Large Collections of JSON Data.",
+            "venue": "FUZZ",
+            "year": "2023",
+            "pages": "1-6",
+            "ee": "https://doi.org/10.1109/FUZZ52849.2023.10309759",
+            "url_dblp": "https://dblp.org/rec/conf/fuzzIEEE/UhartegaraydDK23"
+        },
+        {
+            "doi": "10.1109/BigData55660.2022.10020852",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "The Lannion report on Big Data and Security Monitoring Research.",
+            "venue": "IEEE Big Data",
+            "year": "2022",
+            "pages": "2960-2969",
+            "ee": "https://doi.org/10.1109/BigData55660.2022.10020852",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/dOrazioBRAGRBHSBHTO22"
+        },
+        {
+            "doi": "10.1145/3533737.3535096",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cache management in MASCARA-FPGA: from coalescing heuristic to replacement policy.",
+            "venue": "DaMoN",
+            "year": "2022",
+            "pages": "11:1-11:5",
+            "ee": "https://doi.org/10.1145/3533737.3535096",
+            "url_dblp": "https://dblp.org/rec/conf/damon/HuudCL22"
+        },
+        {
+            "doi": "10.1007/978-3-031-12670-3_22",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "SLA-Aware Cloud Query Processing with Reinforcement Learning-Based Multi-objective Re-optimization.",
+            "venue": "DaWaK",
+            "year": "2022",
+            "pages": "249-255",
+            "ee": "https://doi.org/10.1007/978-3-031-12670-3_22",
+            "url_dblp": "https://dblp.org/rec/conf/dawak/WangGd22"
+        },
+        {
+            "doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "ASSIST: Outil pour l'extraction et l'analyse statistique d'articles.",
+            "venue": "EDA",
+            "year": "2022",
+            "pages": "73-79",
+            "ee": "http://editions-rnti.fr/?inprocid=1002784",
+            "url_dblp": "https://dblp.org/rec/conf/eda/FouilleNA0RRd22"
+        },
+        {
+            "doi": "10.48786/edbt.2022.58",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "From Cloud to Serverless: MOO in the new Cloud epoch.",
+            "venue": "EDBT",
+            "year": "2022",
+            "pages": "1-4",
+            "ee": "https://doi.org/10.48786/edbt.2022.58",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/GeorgoulakisdK22"
+        },
+        {
+            "doi": "10.1145/3548785.3548800",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Multi-objective query optimization in Spark SQL.",
+            "venue": "IDEAS",
+            "year": "2022",
+            "pages": "70-74",
+            "ee": "https://doi.org/10.1145/3548785.3548800",
+            "url_dblp": "https://dblp.org/rec/conf/ideas/MisegiannisKd22"
+        },
+        {
+            "doi": "10.1109/PDP55904.2022.00021",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "RISCLESS: A Reinforcement Learning Strategy to Guarantee SLA on Cloud Ephemeral and Stable Resources.",
+            "venue": "PDP",
+            "year": "2022",
+            "pages": "83-87",
+            "ee": "https://doi.org/10.1109/PDP55904.2022.00021",
+            "url_dblp": "https://dblp.org/rec/conf/pdp/YallesHDBdB22"
+        },
+        {
+            "doi": "10.48550/arXiv.2205.08350",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "RISCLESS: A Reinforcement Learning Strategy to Exploit Unused Cloud Resources.",
+            "venue": "CoRR",
+            "year": "2022",
+            "pages": "",
+            "ee": "https://doi.org/10.48550/arXiv.2205.08350",
+            "url_dblp": "https://dblp.org/rec/journals/corr/abs-2205-08350"
+        },
+        {
+            "doi": "10.1109/BigData52589.2021.9671520",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Towards Data-and-Innovation Driven Sustainable and Productive Agriculture: BIO-AGRI-WATCH as a Use Case Study.",
+            "venue": "IEEE BigData",
+            "year": "2021",
+            "pages": "3407-3415",
+            "ee": "https://doi.org/10.1109/BigData52589.2021.9671520",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/KawtrakulCWKdKL21"
+        },
+        {
+            "doi": "10.1109/BigData52589.2021.9671743",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "ASSIST: Article eXtraction and statIstical AnalysiS.",
+            "venue": "IEEE BigData",
+            "year": "2021",
+            "pages": "4273-4276",
+            "ee": "https://doi.org/10.1109/BigData52589.2021.9671743",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/FouilleNABRRd21"
+        },
+        {
+            "doi": "10.5441/002/edbt.2021.19",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "FRESQUE: A Scalable Ingestion Framework for Secure Range Query Processing on Clouds.",
+            "venue": "EDBT",
+            "year": "2021",
+            "pages": "205-216",
+            "ee": "https://doi.org/10.5441/002/edbt.2021.19",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/TranAdA21"
+        },
+        {
+            "doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "AXIS - Plateforme d'Extraction d'Article et Analyses Statistiques.",
+            "venue": "EGC",
+            "year": "2021",
+            "pages": "477-484",
+            "ee": "https://editions-rnti.fr/?inprocid=1002682",
+            "url_dblp": "https://dblp.org/rec/conf/f-egc/BeckerRNRd21"
+        },
+        {
+            "doi": "10.1007/978-3-030-78428-7_12",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cloud Query Processing with Reinforcement Learning-Based Multi-objective Re-optimization.",
+            "venue": "MEDI",
+            "year": "2021",
+            "pages": "141-155",
+            "ee": "https://doi.org/10.1007/978-3-030-78428-7_12",
+            "url_dblp": "https://dblp.org/rec/conf/medi/WangGdL21"
+        },
+        {
+            "doi": "10.1145/3468791.3468795",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "MASCARA-FPGA cooperation model: Query Trimming through accelerators.",
+            "venue": "SSDBM",
+            "year": "2021",
+            "pages": "203-208",
+            "ee": "https://doi.org/10.1145/3468791.3468795",
+            "url_dblp": "https://dblp.org/rec/conf/ssdbm/HuudCL21"
+        },
+        {
+            "doi": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "MASCARA (ModulAr Semantic CAching fRAmework) towards FPGA Acceleration for IoT Security Monitoring.",
+            "venue": "Open J. Internet Things",
+            "year": "2020",
+            "pages": "14-23",
+            "ee": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "url_dblp": "https://dblp.org/rec/journals/ojiot/HuuLCd20"
+        },
+        {
+            "doi": "10.1007/978-3-662-62386-2_2",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Dynamic Estimation and Grid Partitioning Approach for Multi-objective Optimization Problems in Medical Cloud Federations.",
+            "venue": "Trans. Large Scale Data Knowl. Centered Syst.",
+            "year": "2020",
+            "pages": "32-66",
+            "ee": "https://doi.org/10.1007/978-3-662-62386-2_2",
+            "url_dblp": "https://dblp.org/rec/journals/tlsdkcs/LeKd20"
+        },
+        {
+            "doi": "10.1007/978-3-030-55814-7_10",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cooking Related Carbon Footprint Evaluation and Optimisation.",
+            "venue": "ADBIS/TPDL/EDA Workshops",
+            "year": "2020",
+            "pages": "122-128",
+            "ee": "https://doi.org/10.1007/978-3-030-55814-7_10",
+            "url_dblp": "https://dblp.org/rec/conf/adbis/ToledodAL20"
+        },
+        {
+            "doi": "10.1007/978-3-030-55814-7_20",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Scored Semantic Cache Replacement Strategy for Mobile Cloud Database Systems.",
+            "venue": "ADBIS/TPDL/EDA Workshops",
+            "year": "2020",
+            "pages": "237-248",
+            "ee": "https://doi.org/10.1007/978-3-030-55814-7_20",
+            "url_dblp": "https://dblp.org/rec/conf/adbis/AraniCWGdB20"
+        },
+        {
+            "doi": "10.1109/CloudCom49646.2020.00009",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "ReLeaSER: A Reinforcement Learning Strategy for Optimizing Utilization Of Ephemeral Cloud Resources.",
+            "venue": "CloudCom",
+            "year": "2020",
+            "pages": "65-73",
+            "ee": "https://doi.org/10.1109/CloudCom49646.2020.00009",
+            "url_dblp": "https://dblp.org/rec/conf/cloudcom/HandaouiDBBd20"
+        },
+        {
+            "doi": "10.1109/FUZZ48607.2020.9177610",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Optimization for Large-Scale Fuzzy Joins Using Fuzzy Filters in MapReduce.",
+            "venue": "FUZZ-IEEE",
+            "year": "2020",
+            "pages": "1-8",
+            "ee": "https://doi.org/10.1109/FUZZ48607.2020.9177610",
+            "url_dblp": "https://dblp.org/rec/conf/fuzzIEEE/TranPLd20"
+        },
+        {
+            "doi": "10.1109/ICDEW49219.2020.000-6",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Think Cities: the accelerator for sustainable planning.",
+            "venue": "ICDE Workshops",
+            "year": "2020",
+            "pages": "64-70",
+            "ee": "https://doi.org/10.1109/ICDEW49219.2020.000-6",
+            "url_dblp": "https://dblp.org/rec/conf/icde/CarfantanDdLMPR20"
+        },
+        {
+            "doi": "10.1109/ICDEW49219.2020.00011",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Persistent Memory-Aware Buffer Pool Manager Simulator for Multi-Tenant Cloud Databases.",
+            "venue": "ICDE Workshops",
+            "year": "2020",
+            "pages": "121-126",
+            "ee": "https://doi.org/10.1109/ICDEW49219.2020.00011",
+            "url_dblp": "https://dblp.org/rec/conf/icde/BasiukGdL20"
+        },
+        {
+            "doi": "https://arxiv.org/abs/2009.11208",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "ReLeaSER: A Reinforcement Learning Strategy for Optimizing Utilization Of Ephemeral Cloud Resources.",
+            "venue": "CoRR",
+            "year": "2020",
+            "pages": "",
+            "ee": "https://arxiv.org/abs/2009.11208",
+            "url_dblp": "https://dblp.org/rec/journals/corr/abs-2009-11208"
+        },
+        {
+            "doi": "https://ceur-ws.org/Vol-2324/Paper21-TLe.pdf",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Optimizing DICOM Data Management with NSGA-G.",
+            "venue": "DOLAP",
+            "year": "2019",
+            "pages": "",
+            "ee": "https://ceur-ws.org/Vol-2324/Paper21-TLe.pdf",
+            "url_dblp": "https://dblp.org/rec/conf/dolap/LeKd19"
+        },
+        {
+            "doi": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Vision of a Decisional Model for Re-optimizing Query Execution Plans Based on Machine Learning Techniques.",
+            "venue": "DOLAP",
+            "year": "2019",
+            "pages": "",
+            "ee": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "url_dblp": "https://dblp.org/rec/conf/dolap/WangAGd19"
+        },
+        {
+            "doi": "http://editions-rnti.fr/?inprocid=1002542",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Relations complexes au sein du syst\u00e8me Hive.",
+            "venue": "EDA",
+            "year": "2019",
+            "pages": "1-14",
+            "ee": "http://editions-rnti.fr/?inprocid=1002542",
+            "url_dblp": "https://dblp.org/rec/conf/eda/PilvenS19"
+        },
+        {
+            "doi": "https://ceur-ws.org/Vol-2322/DARLIAP_5.pdf",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Dynamic Estimation for Medical Data Management in a Cloud Federation.",
+            "venue": "EDBT/ICDT Workshops",
+            "year": "2019",
+            "pages": "",
+            "ee": "https://ceur-ws.org/Vol-2322/DARLIAP_5.pdf",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/LeKd19"
+        },
+        {
+            "doi": "10.5441/002/edbt.2019.82",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Range Query Processing for Monitoring Applications over Untrustworthy Clouds.",
+            "venue": "EDBT",
+            "year": "2019",
+            "pages": "666-669",
+            "ee": "https://doi.org/10.5441/002/edbt.2019.82",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/TranAdA19"
+        },
+        {
+            "doi": "10.1007/978-3-030-34146-6_13",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "On Complex Value Relations in Hive.",
+            "venue": "ER Workshops",
+            "year": "2019",
+            "pages": "146-156",
+            "ee": "https://doi.org/10.1007/978-3-030-34146-6_13",
+            "url_dblp": "https://dblp.org/rec/conf/er/PilvenSd19"
+        },
+        {
+            "doi": "https://www.ronpub.com/ojiot/OJIOT_2018v4i1n13_Orazio.html",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Semantic Caching Framework: An FPGA-Based Application for IoT Security Monitoring.",
+            "venue": "Open J. Internet Things",
+            "year": "2018",
+            "pages": "150-157",
+            "ee": "https://www.ronpub.com/ojiot/OJIOT_2018v4i1n13_Orazio.html",
+            "url_dblp": "https://dblp.org/rec/journals/ojiot/dOrazioL18"
+        },
+        {
+            "doi": "10.1109/BigData.2018.8622401",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Adaptive Time, Monetary Cost Aware Query Optimization on Cloud Database Systems.",
+            "venue": "IEEE BigData",
+            "year": "2018",
+            "pages": "3374-3382",
+            "ee": "https://doi.org/10.1109/BigData.2018.8622401",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/WangAGd18"
+        },
+        {
+            "doi": "10.1109/BigData.2018.8622148",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "An efficient multi-objective genetic algorithm for cloud computing: NSGA-G.",
+            "venue": "IEEE BigData",
+            "year": "2018",
+            "pages": "3883-3888",
+            "ee": "https://doi.org/10.1109/BigData.2018.8622148",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/LeKd18"
+        },
+        {
+            "doi": "10.1109/FUZZ-IEEE.2018.8491658",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Improving Hamming distance-based fuzzy join in MapReduce using Bloom Filters.",
+            "venue": "FUZZ-IEEE",
+            "year": "2018",
+            "pages": "1-7",
+            "ee": "https://doi.org/10.1109/FUZZ-IEEE.2018.8491658",
+            "url_dblp": "https://dblp.org/rec/conf/fuzzIEEE/TranPLD18"
+        },
+        {
+            "doi": "10.1007/978-3-030-30284-9_7",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Toward FPGA-Based Semantic Caching for Accelerating Data Analysis with Spark and HDFS.",
+            "venue": "ISIP",
+            "year": "2018",
+            "pages": "104-115",
+            "ee": "https://doi.org/10.1007/978-3-030-30284-9_7",
+            "url_dblp": "https://dblp.org/rec/conf/isipers/MaghzaouidL18"
+        },
+        {
+            "doi": "https://ceur-ws.org/Vol-2170/paper13.pdf",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Method to Build a Geolocalized Food Price Time Series Knowledge Base Analyzable by Everyone.",
+            "venue": "LADaS@VLDB",
+            "year": "2018",
+            "pages": "88-91",
+            "ee": "https://ceur-ws.org/Vol-2170/paper13.pdf",
+            "url_dblp": "https://dblp.org/rec/conf/vldb/PapinAd18"
+        },
+        {
+            "doi": "10.1109/BigData.2017.8258208",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Improving user interaction in mobile-cloud database query processing.",
+            "venue": "IEEE BigData",
+            "year": "2017",
+            "pages": "2500-2507",
+            "ee": "https://doi.org/10.1109/BigData.2017.8258208",
+            "url_dblp": "https://dblp.org/rec/conf/bigdataconf/WangAHGd17"
+        },
+        {
+            "doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Graph Constraints in Urban Computing: Dealing with Conditions in Processing Urban Data.",
+            "venue": "iThings/GreenCom/CPSCom/SmartData",
+            "year": "2017",
+            "pages": "1118-1124",
+            "ee": "https://doi.org/10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "url_dblp": "https://dblp.org/rec/conf/ithings/DOrazioAHKM17"
+        },
+        {
+            "doi": "http://arxiv.org/abs/1701.05099",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Cost Models for Selecting Materialized Views in Public Clouds.",
+            "venue": "CoRR",
+            "year": "2017",
+            "pages": "",
+            "ee": "http://arxiv.org/abs/1701.05099",
+            "url_dblp": "https://dblp.org/rec/journals/corr/PerriotPdBBD17"
+        },
+        {
+            "doi": "10.1007/978-3-662-49534-6_2",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "A Theoretical and Experimental Comparison of Filter-Based Equijoins in MapReduce.",
+            "venue": "Trans. Large Scale Data Knowl. Centered Syst.",
+            "year": "2016",
+            "pages": "33-70",
+            "ee": "https://doi.org/10.1007/978-3-662-49534-6_2",
+            "url_dblp": "https://dblp.org/rec/journals/tlsdkcs/PhandR16"
+        },
+        {
+            "doi": "https://ceur-ws.org/Vol-1558/paper39.pdf",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Weighted Sum Model for Multi-Objective Query Optimization for Mobile-Cloud Database Environments.",
+            "venue": "EDBT/ICDT Workshops",
+            "year": "2016",
+            "pages": "",
+            "ee": "https://ceur-ws.org/Vol-1558/paper39.pdf",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/HelffGd16"
+        },
+        {
+            "doi": "10.1007/978-3-319-57741-8_4",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Storing and Querying DICOM Data with HYTORMO.",
+            "venue": "DMAH@VLDB",
+            "year": "2016",
+            "pages": "43-61",
+            "ee": "https://doi.org/10.1007/978-3-319-57741-8_4",
+            "url_dblp": "https://dblp.org/rec/conf/vldb/Nguyen-CongdTH16"
+        },
+        {
+            "doi": "10.1016/j.is.2013.08.005",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Density-based data partitioning strategy to approximate large-scale subgraph mining.",
+            "venue": "Inf. Syst.",
+            "year": "2015",
+            "pages": "213-223",
+            "ee": "https://doi.org/10.1016/j.is.2013.08.005",
+            "url_dblp": "https://dblp.org/rec/journals/is/AridhidMN15"
+        },
+        {
+            "doi": "10.1007/978-3-319-43862-7_3",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Semantic Matrix for Aggregate Query Rewriting.",
+            "venue": "ISIP",
+            "year": "2015",
+            "pages": "46-66",
+            "ee": "https://doi.org/10.1007/978-3-319-43862-7_3",
+            "url_dblp": "https://dblp.org/rec/conf/isipers/PerriotdLS15"
+        },
+        {
+            "doi": "10.1109/Trustcom.2015.569",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cost Models for Distributed Pattern Mining in the Cloud.",
+            "venue": "TrustCom/BigDataSE/ISPA (2)",
+            "year": "2015",
+            "pages": "112-119",
+            "ee": "https://doi.org/10.1109/Trustcom.2015.569",
+            "url_dblp": "https://dblp.org/rec/conf/trustcom/AridhidMN15"
+        },
+        {
+            "doi": "10.1007/978-3-319-41576-5_6",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Time-, Energy-, and Monetary Cost-Aware Cache Design for a Mobile-Cloud Database System.",
+            "venue": "Big-O(Q)/DMAH@VLDB",
+            "year": "2015",
+            "pages": "71-85",
+            "ee": "https://doi.org/10.1007/978-3-319-41576-5_6",
+            "url_dblp": "https://dblp.org/rec/conf/vldb/PerrinMHGd15"
+        },
+        {
+            "doi": "10.4018/ijdwm.2014100101",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Cost Models for Selecting Materialized Views in Public Clouds.",
+            "venue": "Int. J. Data Warehous. Min.",
+            "year": "2014",
+            "pages": "1-25",
+            "ee": "https://doi.org/10.4018/ijdwm.2014100101",
+            "url_dblp": "https://dblp.org/rec/journals/jdwm/PerriotPdBBD14"
+        },
+        {
+            "doi": "10.3166/tsi.33.711-737",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Un partitionnement bas\u00e9 sur la densit\u00e9 de graphe pour approcher la fouille distribu\u00e9e de sous-graphes fr\u00e9quents.",
+            "venue": "Tech. Sci. Informatiques",
+            "year": "2014",
+            "pages": "711-737",
+            "ee": "https://doi.org/10.3166/tsi.33.711-737",
+            "url_dblp": "https://dblp.org/rec/journals/tsi/AridhidMN14"
+        },
+        {
+            "doi": "10.1145/2536669.2536678",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Medical data management in the SYSEO project.",
+            "venue": "SIGMOD Rec.",
+            "year": "2013",
+            "pages": "48-53",
+            "ee": "https://doi.org/10.1145/2536669.2536678",
+            "url_dblp": "https://dblp.org/rec/journals/sigmod/ChabanedGMR13"
+        },
+        {
+            "doi": "10.1145/2501928.2501932",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Toward intersection filter-based optimization for joins in MapReduce.",
+            "venue": "Cloud-I",
+            "year": "2013",
+            "pages": "2:1-2:2",
+            "ee": "https://doi.org/10.1145/2501928.2501932",
+            "url_dblp": "https://dblp.org/rec/conf/cloudi/PhandR13"
+        },
+        {
+            "doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Mod\u00e8les de Co\u00fbt pour la S\u00e9lection de Vues Mat\u00e9rialis\u00e9es dans le Nuage, Application aux Services Amazon EC2 et S3.",
+            "venue": "EDA",
+            "year": "2013",
+            "pages": "53-68",
+            "ee": "http://editions-rnti.fr/?inprocid=1001895",
+            "url_dblp": "https://dblp.org/rec/conf/eda/PerriotPdBBD13"
+        },
+        {
+            "doi": "10.1007/978-3-319-08732-0_3",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Rewriting Aggregate Queries Using Functional Dependencies within the Cloud.",
+            "venue": "ISIP",
+            "year": "2013",
+            "pages": "31-42",
+            "ee": "https://doi.org/10.1007/978-3-319-08732-0_3",
+            "url_dblp": "https://dblp.org/rec/conf/isipers/PerriotdLS13"
+        },
+        {
+            "doi": "10.1145/2542050.2542089",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Optimized data management for e-learning in the clouds towards Cloodle.",
+            "venue": "SoICT",
+            "year": "2013",
+            "pages": "320-324",
+            "ee": "https://doi.org/10.1145/2542050.2542089",
+            "url_dblp": "https://dblp.org/rec/conf/soict/AdrianiCNdLS13"
+        },
+        {
+            "doi": "10.1007/978-3-642-30633-4_3",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cooperative Database Caching within Cloud Environments.",
+            "venue": "AIMS",
+            "year": "2012",
+            "pages": "14-25",
+            "ee": "https://doi.org/10.1007/978-3-642-30633-4_3",
+            "url_dblp": "https://dblp.org/rec/conf/aims/VanceaMdS12"
+        },
+        {
+            "doi": "10.1145/2347673.2347675",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Towards a hybrid row-column database for a cloud-based medical data management system.",
+            "venue": "Cloud-I",
+            "year": "2012",
+            "pages": "2",
+            "ee": "https://doi.org/10.1145/2347673.2347675",
+            "url_dblp": "https://dblp.org/rec/conf/cloudi/MohamaddG12"
+        },
+        {
+            "doi": "10.1145/2320765.2320788",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cost models for view materialization in the cloud.",
+            "venue": "EDBT/ICDT Workshops",
+            "year": "2012",
+            "pages": "47-54",
+            "ee": "https://doi.org/10.1145/2320765.2320788",
+            "url_dblp": "https://dblp.org/rec/conf/edbt/NguyenBdD12"
+        },
+        {
+            "doi": "10.1007/978-3-642-40140-4_3",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Toward Cost-Aware Semantic Caching in the Cloud.",
+            "venue": "ISIP",
+            "year": "2012",
+            "pages": "21-30",
+            "ee": "https://doi.org/10.1007/978-3-642-40140-4_3",
+            "url_dblp": "https://dblp.org/rec/conf/isipers/dOrazioLS12"
+        },
+        {
+            "doi": "10.1109/NOMS.2012.6211905",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Optimization of flow record handling by applying a decentralized cooperative semantic caching approach.",
+            "venue": "NOMS",
+            "year": "2012",
+            "pages": "245-252",
+            "ee": "https://doi.org/10.1109/NOMS.2012.6211905",
+            "url_dblp": "https://dblp.org/rec/conf/noms/VanceadS12"
+        },
+        {
+            "doi": "10.3166/isi.16.6.139-162",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Entreposage et analyse en ligne dans les nuages avec Pig.",
+            "venue": "Ing\u00e9nierie des Syst\u00e8mes d Inf.",
+            "year": "2011",
+            "pages": "139-162",
+            "ee": "https://doi.org/10.3166/isi.16.6.139-162",
+            "url_dblp": "https://dblp.org/rec/journals/isi/DOrazioB11"
+        },
+        {
+            "doi": "10.4108/icst.collaboratecom.2011.247093",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A scalable cooperative semantic caching (CoopSC) approach to improve range queries.",
+            "venue": "CollaborateCom",
+            "year": "2011",
+            "pages": "45-54",
+            "ee": "https://doi.org/10.4108/icst.collaboratecom.2011.247093",
+            "url_dblp": "https://dblp.org/rec/conf/colcom/VanceadS11"
+        },
+        {
+            "doi": "10.1002/cpe.1552",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Adaptable cache service and application to grid caching.",
+            "venue": "Concurr. Comput. Pract. Exp.",
+            "year": "2010",
+            "pages": "1118-1137",
+            "ee": "https://doi.org/10.1002/cpe.1552",
+            "url_dblp": "https://dblp.org/rec/journals/concurrency/dOrazioRL10"
+        },
+        {
+            "doi": "http://editions-rnti.fr/?inprocid=1001507",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Int\u00e9gration des Tableaux Multidimensionnels en Pig pour l'Entreposage de Donn\u00e9es sur les Nuages.",
+            "venue": "EDA",
+            "year": "2010",
+            "pages": "21-34",
+            "ee": "http://editions-rnti.fr/?inprocid=1001507",
+            "url_dblp": "https://dblp.org/rec/conf/eda/dOrazioB10"
+        },
+        {
+            "doi": "10.1007/978-3-642-15108-8_2",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Merging File Systems and Data Bases to Fit the Grid.",
+            "venue": "Globe",
+            "year": "2010",
+            "pages": "13-25",
+            "ee": "https://doi.org/10.1007/978-3-642-15108-8_2",
+            "url_dblp": "https://dblp.org/rec/conf/globe/DenneulinLdR10"
+        },
+        {
+            "doi": "10.1007/978-3-642-15108-8_3",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Multidimensional Arrays for Warehousing Data on Clouds.",
+            "venue": "Globe",
+            "year": "2010",
+            "pages": "26-37",
+            "ee": "https://doi.org/10.1007/978-3-642-15108-8_3",
+            "url_dblp": "https://dblp.org/rec/conf/globe/dOrazioB10"
+        },
+        {
+            "doi": "10.1007/978-3-642-15108-8_5",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "A Catalog-Based Caching Strategy for Structured P2P Systems.",
+            "venue": "Globe",
+            "year": "2010",
+            "pages": "50-61",
+            "ee": "https://doi.org/10.1007/978-3-642-15108-8_5",
+            "url_dblp": "https://dblp.org/rec/conf/globe/ArnedoVVCd10"
+        },
+        {
+            "doi": "10.1007/978-3-642-03715-3_5",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "DHTCache: A Distributed Service to Improve the Selection of Cache Configurations within a Highly-Distributed Context.",
+            "venue": "Globe",
+            "year": "2009",
+            "pages": "48-59",
+            "ee": "https://doi.org/10.1007/978-3-642-03715-3_5",
+            "url_dblp": "https://dblp.org/rec/conf/globe/GomezVCd09"
+        },
+        {
+            "doi": "10.1145/1620432.1620456",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Semantic caching for pervasive grids.",
+            "venue": "IDEAS",
+            "year": "2009",
+            "pages": "227-233",
+            "ee": "https://doi.org/10.1145/1620432.1620456",
+            "url_dblp": "https://dblp.org/rec/conf/ideas/dOrazioT09"
+        },
+        {
+            "doi": "10.1145/1739268.1739282",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Cache s\u00e9mantique pour grilles pervasives.",
+            "venue": "UbiMob",
+            "year": "2009",
+            "pages": "65-72",
+            "ee": "https://doi.org/10.1145/1739268.1739282",
+            "url_dblp": "https://dblp.org/rec/conf/ubimob/dOrazioT09"
+        },
+        {
+            "doi": "10.29375/25392115.1027",
+            "TYPE_PUBLICATION.id": 2,
+            "titre": "Semantic caching in large scale querying systems.",
+            "venue": "Rev. Colomb. de Computaci\u00f3n",
+            "year": "2008",
+            "pages": "33-57",
+            "ee": "https://doi.org/10.29375/25392115.1027",
+            "url_dblp": "https://dblp.org/rec/journals/rcc/dOrazioRLJ08"
+        },
+        {
+            "doi": "10.1007/978-3-540-85176-9_4",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Context-Aware Cache Management in Grid Middleware.",
+            "venue": "Globe",
+            "year": "2008",
+            "pages": "34-45",
+            "ee": "https://doi.org/10.1007/978-3-540-85176-9_4",
+            "url_dblp": "https://dblp.org/rec/conf/globe/JouanotdR08"
+        },
+        {
+            "doi": "",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Caches s\u00e9mantiques coop\u00e9ratifs pour grilles de donn\u00e9es.",
+            "venue": "BDA",
+            "year": "2007",
+            "pages": "",
+            "ee": "",
+            "url_dblp": "https://dblp.org/rec/conf/bda/dOrazioJLR07"
+        },
+        {
+            "doi": "10.1007/978-3-540-74469-6_17",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Distributed Semantic Caching in Grid Middleware.",
+            "venue": "DEXA",
+            "year": "2007",
+            "pages": "162-171",
+            "ee": "https://doi.org/10.1007/978-3-540-74469-6_17",
+            "url_dblp": "https://dblp.org/rec/conf/dexa/dOrazioJDLRV07"
+        },
+        {
+            "doi": "",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Services de cache et intergiciel pour grilles de donn\u00e9es.",
+            "venue": "BDA",
+            "year": "2006",
+            "pages": "",
+            "ee": "",
+            "url_dblp": "https://dblp.org/rec/conf/bda/dOrazioVJDLR06"
+        },
+        {
+            "doi": "10.1145/1101499.1101502",
+            "TYPE_PUBLICATION.id": 1,
+            "titre": "Building adaptable cache services.",
+            "venue": "MGC@Middleware",
+            "year": "2005",
+            "pages": "10:1-10:6",
+            "ee": "https://doi.org/10.1145/1101499.1101502",
+            "url_dblp": "https://dblp.org/rec/conf/middleware/dOrazioJLR05"
+        }
+    ],
+    "ARTICLE": [
+        {
+            "id": 1,
+            "PAPER.id": "10.1109/MIC.2024.3511332",
+            "volume": "28",
+            "number": "6"
+        },
+        {
+            "id": 2,
+            "PAPER.id": "10.48550/arXiv.2205.08350",
+            "volume": "abs/2205.08350",
+            "number": ""
+        },
+        {
+            "id": 3,
+            "PAPER.id": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "volume": "6",
+            "number": "1"
+        },
+        {
+            "id": 4,
+            "PAPER.id": "10.1007/978-3-662-62386-2_2",
+            "volume": "46",
+            "number": ""
+        },
+        {
+            "id": 5,
+            "PAPER.id": "https://arxiv.org/abs/2009.11208",
+            "volume": "abs/2009.11208",
+            "number": ""
+        },
+        {
+            "id": 6,
+            "PAPER.id": "https://www.ronpub.com/ojiot/OJIOT_2018v4i1n13_Orazio.html",
+            "volume": "4",
+            "number": "1"
+        },
+        {
+            "id": 7,
+            "PAPER.id": "http://arxiv.org/abs/1701.05099",
+            "volume": "abs/1701.05099",
+            "number": ""
+        },
+        {
+            "id": 8,
+            "PAPER.id": "10.1007/978-3-662-49534-6_2",
+            "volume": "25",
+            "number": ""
+        },
+        {
+            "id": 9,
+            "PAPER.id": "10.1016/j.is.2013.08.005",
+            "volume": "48",
+            "number": ""
+        },
+        {
+            "id": 10,
+            "PAPER.id": "10.4018/ijdwm.2014100101",
+            "volume": "10",
+            "number": "4"
+        },
+        {
+            "id": 11,
+            "PAPER.id": "10.3166/tsi.33.711-737",
+            "volume": "33",
+            "number": "9-10"
+        },
+        {
+            "id": 12,
+            "PAPER.id": "10.1145/2536669.2536678",
+            "volume": "42",
+            "number": "3"
+        },
+        {
+            "id": 13,
+            "PAPER.id": "10.3166/isi.16.6.139-162",
+            "volume": "16",
+            "number": "6"
+        },
+        {
+            "id": 14,
+            "PAPER.id": "10.1002/cpe.1552",
+            "volume": "22",
+            "number": "9"
+        },
+        {
+            "id": 15,
+            "PAPER.id": "10.29375/25392115.1027",
+            "volume": "9",
+            "number": "1"
+        }
+    ],
+    "CONTRIBUTIONS": [
+        {
+            "RESEARCHER.PID": "239/6006",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "156/1632",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "395/3229",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "395/3497",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "373/2175",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "395/2978",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 7
+        },
+        {
+            "RESEARCHER.PID": "230/4192",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 8
+        },
+        {
+            "RESEARCHER.PID": "j/BjornTorJonsson1",
+            "ARTICLE.doi": "10.1007/978-981-96-2074-6_18",
+            "position": 9
+        },
+        {
+            "RESEARCHER.PID": "352/1505",
+            "ARTICLE.doi": "10.1109/MIC.2024.3511332",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/MIC.2024.3511332",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.1109/MIC.2024.3511332",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "69/528",
+            "ARTICLE.doi": "10.1109/MIC.2024.3511332",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/MIC.2024.3511332",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "352/1505",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "251/9315",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "69/528",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/CCGrid59990.2024.00071",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "384/9001",
+            "ARTICLE.doi": "10.1007/978-981-97-5575-2_45",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-981-97-5575-2_45",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "135/1832",
+            "ARTICLE.doi": "10.1007/978-981-97-5575-2_45",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1007/978-981-97-5575-2_45",
+            "position": 4
+        },
         {
-            "name": "Amr El Abbadi",
-            "pid": "a/AmrElAbbadi"
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "10.1007/978-3-031-64605-8_21",
+            "position": 1
         },
         {
-            "name": "Mirna Adriani",
-            "pid": "15/6057"
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "10.1007/978-3-031-64605-8_21",
+            "position": 2
         },
         {
-            "name": "Juba Agoun",
-            "pid": "250/8901"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-031-64605-8_21",
+            "position": 3
         },
         {
-            "name": "Baptiste Alix",
-            "pid": "311/1744"
+            "RESEARCHER.PID": "384/2473",
+            "ARTICLE.doi": "10.1145/3676288.3676305",
+            "position": 1
         },
         {
-            "name": "Tristan Allard",
-            "pid": "05/1478"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/3676288.3676305",
+            "position": 2
         },
         {
-            "name": "Mirian Halfeld Ferrari Alves",
-            "pid": "f/MirianHalfeldFerrariAlves"
+            "RESEARCHER.PID": "302/5131",
+            "ARTICLE.doi": "10.1145/3676288.3676305",
+            "position": 3
         },
         {
-            "name": "Fr\u00e9d\u00e9ric Andr\u00e8s",
-            "pid": "a/FredericAndres"
+            "RESEARCHER.PID": "94/2724",
+            "ARTICLE.doi": "10.1145/3676288.3676305",
+            "position": 4
         },
         {
-            "name": "Zachary Arani",
-            "pid": "234/2670"
+            "RESEARCHER.PID": "384/2651",
+            "ARTICLE.doi": "10.1145/3676288.3676304",
+            "position": 1
         },
         {
-            "name": "Zach Arani",
-            "pid": "Unknown PID"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/3676288.3676304",
+            "position": 2
         },
         {
-            "name": "Jason Arenson",
-            "pid": "213/1171"
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "10.1145/3676288.3676304",
+            "position": 3
         },
         {
-            "name": "Sabeur Aridhi",
-            "pid": "09/7833"
+            "RESEARCHER.PID": "151/1408",
+            "ARTICLE.doi": "10.1145/3676288.3676304",
+            "position": 4
         },
         {
-            "name": "Mile Arnedo",
-            "pid": "67/8355"
+            "RESEARCHER.PID": "352/1505",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 1
         },
         {
-            "name": "Bruno Bachelet",
-            "pid": "73/2374"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 2
         },
         {
-            "name": "Olivier Barais",
-            "pid": "97/947"
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 3
         },
         {
-            "name": "Taras Basiuk",
-            "pid": "265/9623"
+            "RESEARCHER.PID": "352/1787",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 4
         },
         {
-            "name": "Laurent Beaulieu",
-            "pid": "214/6919"
+            "RESEARCHER.PID": "214/6880",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 5
         },
         {
-            "name": "Brett Becker 0001",
-            "pid": "315/0832-1"
+            "RESEARCHER.PID": "214/6919",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 6
         },
         {
-            "name": "Akram Bensalem",
-            "pid": "384/2651"
+            "RESEARCHER.PID": "180/6426",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 7
         },
         {
-            "name": "Esther Bernard",
-            "pid": "352/1787"
+            "RESEARCHER.PID": "69/528",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 8
         },
         {
-            "name": "Elisa Bertino",
-            "pid": "b/ElisaBertino"
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/CCGrid57682.2023.00024",
+            "position": 9
         },
         {
-            "name": "Sandro Bimonte",
-            "pid": "87/3974"
+            "RESEARCHER.PID": "361/1201",
+            "ARTICLE.doi": "10.1109/FUZZ52849.2023.10309759",
+            "position": 1
         },
         {
-            "name": "No\u00e9 Le Blavec",
-            "pid": "395/3497"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/FUZZ52849.2023.10309759",
+            "position": 2
         },
         {
-            "name": "Georges Bossert",
-            "pid": "147/3374"
+            "RESEARCHER.PID": "55/3599",
+            "ARTICLE.doi": "10.1109/FUZZ52849.2023.10309759",
+            "position": 3
         },
         {
-            "name": "Jalil Boukhobza",
-            "pid": "94/2593"
+            "RESEARCHER.PID": "133/2548",
+            "ARTICLE.doi": "10.1109/FUZZ52849.2023.10309759",
+            "position": 4
         },
         {
-            "name": "Gwenaelle Carfantan",
-            "pid": "265/9620"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 1
         },
         {
-            "name": "Emmanuel Casseau",
-            "pid": "75/3606"
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 2
         },
         {
-            "name": "Harold E. Castro",
-            "pid": "29/7270"
+            "RESEARCHER.PID": "r/OmerFRana",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 3
         },
         {
-            "name": "Yahia Chabane",
-            "pid": "50/10537"
+            "RESEARCHER.PID": "250/8901",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 4
         },
         {
-            "name": "Hutchatai Chanlekha",
-            "pid": "71/7120"
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 5
         },
         {
-            "name": "Drake Chapman",
-            "pid": "272/7179"
+            "RESEARCHER.PID": "265/9619",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 6
         },
         {
-            "name": "Yeow Wei Choong",
-            "pid": "84/6869"
+            "RESEARCHER.PID": "b/ElisaBertino",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 7
         },
         {
-            "name": "Matthew Damigos",
-            "pid": "55/3599"
+            "RESEARCHER.PID": "h/MohandSaidHacid",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 8
         },
         {
-            "name": "Florian Daniel",
-            "pid": "07/4356"
+            "RESEARCHER.PID": "08/5644",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 9
         },
         {
-            "name": "J\u00e9r\u00f4me Darmont",
-            "pid": "d/JeromeDarmont"
+            "RESEARCHER.PID": "147/3374",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 10
         },
         {
-            "name": "Jean-Emile Dartois",
-            "pid": "153/7542"
+            "RESEARCHER.PID": "272/4447",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 11
         },
         {
-            "name": "Yves Denneulin",
-            "pid": "38/6122"
+            "RESEARCHER.PID": "94/2724",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 12
         },
         {
-            "name": "Aaron Duane",
-            "pid": "156/1632"
+            "RESEARCHER.PID": "19/3497",
+            "ARTICLE.doi": "10.1109/BigData55660.2022.10020852",
+            "position": 13
         },
         {
-            "name": "Andrea Enrici",
-            "pid": "151/1408"
+            "RESEARCHER.PID": "272/4447",
+            "ARTICLE.doi": "10.1145/3533737.3535096",
+            "position": 1
         },
         {
-            "name": "Justine Fouill\u00e9",
-            "pid": "311/1310"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/3533737.3535096",
+            "position": 2
         },
         {
-            "name": "Michail Georgoulakis",
-            "pid": "320/2008"
+            "RESEARCHER.PID": "75/3606",
+            "ARTICLE.doi": "10.1145/3533737.3535096",
+            "position": 3
         },
         {
-            "name": "Michail Georgoulakis Misegiannis",
-            "pid": "Unknown PID"
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "10.1145/3533737.3535096",
+            "position": 4
         },
         {
-            "name": "Carlos E. G\u00f3mez",
-            "pid": "49/7267"
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "10.1007/978-3-031-12670-3_22",
+            "position": 1
         },
         {
-            "name": "Le Gruenwald",
-            "pid": "g/LeGruenwald"
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1007/978-3-031-12670-3_22",
+            "position": 2
         },
         {
-            "name": "Mohand-Said Hacid",
-            "pid": "h/MohandSaidHacid"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-031-12670-3_22",
+            "position": 3
         },
         {
-            "name": "Mohand-Sa\u00efd Hacid",
-            "pid": "Unknown PID"
+            "RESEARCHER.PID": "311/1310",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 1
         },
         {
-            "name": "Mohamed Handaoui",
-            "pid": "269/2155"
+            "RESEARCHER.PID": "199/1666",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 2
         },
         {
-            "name": "Carmem S. Hara",
-            "pid": "26/3914"
+            "RESEARCHER.PID": "311/1744",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 3
         },
         {
-            "name": "Carmem Satie Hara",
-            "pid": "Unknown PID"
+            "RESEARCHER.PID": "315/0832-1",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 4
         },
         {
-            "name": "Hariz Hasnan",
-            "pid": "395/3229"
+            "RESEARCHER.PID": "311/0387",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 5
         },
         {
-            "name": "Florian Helff",
-            "pid": "176/5023"
+            "RESEARCHER.PID": "52/10483",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 6
         },
         {
-            "name": "Van Long Nguyen Huu",
-            "pid": "272/4447"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002784",
+            "position": 7
         },
         {
-            "name": "Bj\u00f6rn \u00de\u00f3r J\u00f3nsson 0001",
-            "pid": "j/BjornTorJonsson1"
+            "RESEARCHER.PID": "320/2008",
+            "ARTICLE.doi": "10.48786/edbt.2022.58",
+            "position": 1
         },
         {
-            "name": "Fabrice Jouanot",
-            "pid": "03/2772"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.48786/edbt.2022.58",
+            "position": 2
         },
         {
-            "name": "Hugo Joubert",
-            "pid": "383/6332"
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "10.48786/edbt.2022.58",
+            "position": 3
         },
         {
-            "name": "Amine Kacete",
-            "pid": "180/6426"
+            "RESEARCHER.PID": "320/2008",
+            "ARTICLE.doi": "10.1145/3548785.3548800",
+            "position": 1
         },
         {
-            "name": "Eleftherios Kalogeros",
-            "pid": "133/2548"
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "10.1145/3548785.3548800",
+            "position": 2
         },
         {
-            "name": "Thanapat Kangkachit",
-            "pid": "43/4625"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/3548785.3548800",
+            "position": 3
         },
         {
-            "name": "Verena Kantere",
-            "pid": "k/VerenaKantere"
+            "RESEARCHER.PID": "318/8841",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 1
         },
         {
-            "name": "Vasiliki Kantere",
-            "pid": "Unknown PID"
+            "RESEARCHER.PID": "269/2155",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 2
         },
         {
-            "name": "Asanee Kawtrakul",
-            "pid": "27/7030"
+            "RESEARCHER.PID": "153/7542",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 3
         },
         {
-            "name": "Omar Shahbaz Khan",
-            "pid": "239/6006"
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 4
         },
         {
-            "name": "Dimitris Kotzinos",
-            "pid": "26/1664"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 5
         },
         {
-            "name": "N\u00e1dia P. Kozievitch",
-            "pid": "20/8212"
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/PDP55904.2022.00021",
+            "position": 6
         },
         {
-            "name": "Cyril Labb\u00e9",
-            "pid": "l/CyrilLabbe"
+            "RESEARCHER.PID": "318/8841",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 1
         },
         {
-            "name": "Julien Lallet",
-            "pid": "41/2927"
+            "RESEARCHER.PID": "269/2155",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 2
         },
         {
-            "name": "Vincent Lannurien",
-            "pid": "352/1505"
+            "RESEARCHER.PID": "153/7542",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 3
         },
         {
-            "name": "Anne Laurent",
-            "pid": "l/AnneLaurent"
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 4
         },
         {
-            "name": "Dominique Laurent 0001",
-            "pid": "l/DominiqueLaurent"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 5
         },
         {
-            "name": "Trung-Dung Le",
-            "pid": "234/2832"
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.48550/arXiv.2205.08350",
+            "position": 6
         },
         {
-            "name": "Eleazar Leal",
-            "pid": "161/9210"
+            "RESEARCHER.PID": "27/7030",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 1
         },
         {
-            "name": "Maria C. A. Leite",
-            "pid": "272/7044"
+            "RESEARCHER.PID": "71/7120",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 2
         },
         {
-            "name": "Guilherme Sperb Machado",
-            "pid": "71/6756"
+            "RESEARCHER.PID": "01/568",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 3
         },
         {
-            "name": "Mondher Maddouri",
-            "pid": "62/2885"
+            "RESEARCHER.PID": "43/4625",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 4
         },
         {
-            "name": "Marouan Maghzaoui",
-            "pid": "247/6938"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 5
         },
         {
-            "name": "Xavier Marin",
-            "pid": "170/4984"
+            "RESEARCHER.PID": "26/1664",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 6
         },
         {
-            "name": "Claudia Marinica",
-            "pid": "81/4386"
+            "RESEARCHER.PID": "l/DominiqueLaurent",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 7
         },
         {
-            "name": "Baraa Mohamad",
-            "pid": "120/6757"
+            "RESEARCHER.PID": "s/NicolasSpyratos",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671520",
+            "position": 8
         },
         {
-            "name": "Jonathan Mullen",
-            "pid": "158/5093"
+            "RESEARCHER.PID": "311/1310",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 1
         },
         {
-            "name": "Martin A. Musicante",
-            "pid": "72/5025"
+            "RESEARCHER.PID": "199/1666",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 2
         },
         {
-            "name": "Elsa Negre",
-            "pid": "94/3658"
+            "RESEARCHER.PID": "311/1744",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 3
         },
         {
-            "name": "Ba Hung Ngo",
-            "pid": "138/9184"
+            "RESEARCHER.PID": "315/0832-1",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 4
         },
         {
-            "name": "Engelbert Mephu Nguifo",
-            "pid": "10/3832"
+            "RESEARCHER.PID": "311/0387",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 5
         },
         {
-            "name": "Thi Lan Huong Nguyen",
-            "pid": "199/1666"
+            "RESEARCHER.PID": "52/10483",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 6
         },
         {
-            "name": "Thi-Van-Anh Nguyen",
-            "pid": "116/4833"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData52589.2021.9671743",
+            "position": 7
         },
         {
-            "name": "Danh Nguyen-Cong",
-            "pid": "160/1078"
+            "RESEARCHER.PID": "171/2655",
+            "ARTICLE.doi": "10.5441/002/edbt.2021.19",
+            "position": 1
         },
         {
-            "name": "Makoto Onizuka",
-            "pid": "19/3497"
+            "RESEARCHER.PID": "05/1478",
+            "ARTICLE.doi": "10.5441/002/edbt.2021.19",
+            "position": 2
         },
         {
-            "name": "Pierre Ouvrard",
-            "pid": "373/2175"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.5441/002/edbt.2021.19",
+            "position": 3
         },
         {
-            "name": "Johyn Papin",
-            "pid": "225/1804"
+            "RESEARCHER.PID": "a/AmrElAbbadi",
+            "ARTICLE.doi": "10.5441/002/edbt.2021.19",
+            "position": 4
         },
         {
-            "name": "St\u00e9phane Paquelet",
-            "pid": "69/528"
+            "RESEARCHER.PID": "315/0832-1",
+            "ARTICLE.doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "position": 1
         },
         {
-            "name": "Olivier Peau",
-            "pid": "265/9613"
+            "RESEARCHER.PID": "311/0387",
+            "ARTICLE.doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "position": 2
         },
         {
-            "name": "Mikael Perrin",
-            "pid": "181/8380"
+            "RESEARCHER.PID": "199/1666",
+            "ARTICLE.doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "position": 3
         },
         {
-            "name": "Romain Perriot",
-            "pid": "138/1224"
+            "RESEARCHER.PID": "52/10483",
+            "ARTICLE.doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "position": 4
         },
         {
-            "name": "J\u00e9r\u00e9my Pfeifer",
-            "pid": "138/1161"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://editions-rnti.fr/?inprocid=1002682",
+            "position": 5
         },
         {
-            "name": "An-Truong Tran Phan",
-            "pid": "384/9001"
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "10.1007/978-3-030-78428-7_12",
+            "position": 1
         },
         {
-            "name": "Thuong-Cang Phan",
-            "pid": "135/1832"
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1007/978-3-030-78428-7_12",
+            "position": 2
         },
         {
-            "name": "Matthieu Pilven",
-            "pid": "251/6112"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-030-78428-7_12",
+            "position": 3
         },
         {
-            "name": "Omer F. Rana",
-            "pid": "r/OmerFRana"
+            "RESEARCHER.PID": "161/9210",
+            "ARTICLE.doi": "10.1007/978-3-030-78428-7_12",
+            "position": 4
         },
         {
-            "name": "Herv\u00e9 Rannou",
-            "pid": "265/9619"
+            "RESEARCHER.PID": "272/4447",
+            "ARTICLE.doi": "10.1145/3468791.3468795",
+            "position": 1
         },
         {
-            "name": "Christophe Rey",
-            "pid": "11/567"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/3468791.3468795",
+            "position": 2
         },
         {
-            "name": "H\u00e9l\u00e8ne de Ribaupierre",
-            "pid": "52/10483"
+            "RESEARCHER.PID": "75/3606",
+            "ARTICLE.doi": "10.1145/3468791.3468795",
+            "position": 3
         },
         {
-            "name": "Philippe Rigaux",
-            "pid": "r/PRigaux"
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "10.1145/3468791.3468795",
+            "position": 4
         },
         {
-            "name": "Matthieu Rochard",
-            "pid": "311/0387"
+            "RESEARCHER.PID": "272/4447",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "position": 1
         },
         {
-            "name": "Claudia Roncancio",
-            "pid": "r/CRoncancio"
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "position": 2
         },
         {
-            "name": "Taofik Sa\u00efdi",
-            "pid": "08/5644"
+            "RESEARCHER.PID": "75/3606",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "position": 3
         },
         {
-            "name": "Stefanie Scherzinger",
-            "pid": "s/StefanieScherzinger"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2020v6i1n03_Huu.html",
+            "position": 4
         },
         {
-            "name": "Cam\u00e9lia Slimani",
-            "pid": "251/9315"
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "10.1007/978-3-662-62386-2_2",
+            "position": 1
         },
         {
-            "name": "Chanattan Sok",
-            "pid": "384/2473"
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "10.1007/978-3-662-62386-2_2",
+            "position": 2
         },
         {
-            "name": "Nicolas Spyratos",
-            "pid": "s/NicolasSpyratos"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-662-62386-2_2",
+            "position": 3
         },
         {
-            "name": "Burkhard Stiller",
-            "pid": "00/4292"
+            "RESEARCHER.PID": "272/7123",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_10",
+            "position": 1
         },
         {
-            "name": "Reyyan Tekin",
-            "pid": "302/5131"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_10",
+            "position": 2
         },
         {
-            "name": "Constance Thierry",
-            "pid": "230/4192"
+            "RESEARCHER.PID": "a/FredericAndres",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_10",
+            "position": 3
         },
         {
-            "name": "Damien Alvarez de Toledo",
-            "pid": "272/7123"
+            "RESEARCHER.PID": "272/7044",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_10",
+            "position": 4
         },
         {
-            "name": "Dimitri Tombroff",
-            "pid": "94/2724"
+            "RESEARCHER.PID": "234/2670",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 1
         },
         {
-            "name": "Hoang Van Tran",
-            "pid": "171/2655"
+            "RESEARCHER.PID": "272/7179",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 2
         },
         {
-            "name": "Nga Tran",
-            "pid": "80/4976"
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 3
         },
         {
-            "name": "Thi-To-Quyen Tran",
-            "pid": "228/3089"
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 4
         },
         {
-            "name": "Mamadou Kaba Traor\u00e9",
-            "pid": "55/1407"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 5
         },
         {
-            "name": "Remi Uhartegaray",
-            "pid": "361/1201"
+            "RESEARCHER.PID": "265/9623",
+            "ARTICLE.doi": "10.1007/978-3-030-55814-7_20",
+            "position": 6
         },
         {
-            "name": "Olivier Valentin",
-            "pid": "65/1620"
+            "RESEARCHER.PID": "269/2155",
+            "ARTICLE.doi": "10.1109/CloudCom49646.2020.00009",
+            "position": 1
         },
         {
-            "name": "Andrei Vancea",
-            "pid": "18/4558"
+            "RESEARCHER.PID": "153/7542",
+            "ARTICLE.doi": "10.1109/CloudCom49646.2020.00009",
+            "position": 2
         },
         {
-            "name": "Johan Verdon",
-            "pid": "395/2978"
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "10.1109/CloudCom49646.2020.00009",
+            "position": 3
         },
         {
-            "name": "Mar\u00eda-Del-Pilar Villamil",
-            "pid": "95/6334"
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "10.1109/CloudCom49646.2020.00009",
+            "position": 4
         },
         {
-            "name": "Ricardo Villanueva",
-            "pid": "59/8355"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/CloudCom49646.2020.00009",
+            "position": 5
         },
         {
-            "name": "Kitsana Waiyamai",
-            "pid": "01/568"
+            "RESEARCHER.PID": "228/3089",
+            "ARTICLE.doi": "10.1109/FUZZ48607.2020.9177610",
+            "position": 1
         },
         {
-            "name": "Chenxiao Wang",
-            "pid": "152/5496"
+            "RESEARCHER.PID": "135/1832",
+            "ARTICLE.doi": "10.1109/FUZZ48607.2020.9177610",
+            "position": 2
         },
         {
-            "name": "Olivier Weppe",
-            "pid": "214/6880"
+            "RESEARCHER.PID": "l/AnneLaurent",
+            "ARTICLE.doi": "10.1109/FUZZ48607.2020.9177610",
+            "position": 3
         },
         {
-            "name": "SidAhmed Yalles",
-            "pid": "318/8841"
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/FUZZ48607.2020.9177610",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "265/9620",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "07/4356",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "170/4984",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "265/9613",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "265/9619",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.000-6",
+            "position": 7
+        },
+        {
+            "RESEARCHER.PID": "265/9623",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.00011",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.00011",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.00011",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "161/9210",
+            "ARTICLE.doi": "10.1109/ICDEW49219.2020.00011",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "269/2155",
+            "ARTICLE.doi": "https://arxiv.org/abs/2009.11208",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "153/7542",
+            "ARTICLE.doi": "https://arxiv.org/abs/2009.11208",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "94/2593",
+            "ARTICLE.doi": "https://arxiv.org/abs/2009.11208",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "97/947",
+            "ARTICLE.doi": "https://arxiv.org/abs/2009.11208",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://arxiv.org/abs/2009.11208",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper21-TLe.pdf",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper21-TLe.pdf",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper21-TLe.pdf",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "234/2670",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2324/Paper26-CWang.pdf",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "251/6112",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002542",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "s/StefanieScherzinger",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002542",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1002542",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2322/DARLIAP_5.pdf",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2322/DARLIAP_5.pdf",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2322/DARLIAP_5.pdf",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "171/2655",
+            "ARTICLE.doi": "10.5441/002/edbt.2019.82",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "05/1478",
+            "ARTICLE.doi": "10.5441/002/edbt.2019.82",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.5441/002/edbt.2019.82",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "a/AmrElAbbadi",
+            "ARTICLE.doi": "10.5441/002/edbt.2019.82",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "251/6112",
+            "ARTICLE.doi": "10.1007/978-3-030-34146-6_13",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "s/StefanieScherzinger",
+            "ARTICLE.doi": "10.1007/978-3-030-34146-6_13",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-030-34146-6_13",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2018v4i1n13_Orazio.html",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "https://www.ronpub.com/ojiot/OJIOT_2018v4i1n13_Orazio.html",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622401",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "234/2670",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622401",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622401",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622401",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "234/2832",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622148",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "k/VerenaKantere",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622148",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData.2018.8622148",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "228/3089",
+            "ARTICLE.doi": "10.1109/FUZZ-IEEE.2018.8491658",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "135/1832",
+            "ARTICLE.doi": "10.1109/FUZZ-IEEE.2018.8491658",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/AnneLaurent",
+            "ARTICLE.doi": "10.1109/FUZZ-IEEE.2018.8491658",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/FUZZ-IEEE.2018.8491658",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "247/6938",
+            "ARTICLE.doi": "10.1007/978-3-030-30284-9_7",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-030-30284-9_7",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "41/2927",
+            "ARTICLE.doi": "10.1007/978-3-030-30284-9_7",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "225/1804",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2170/paper13.pdf",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "a/FredericAndres",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2170/paper13.pdf",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-2170/paper13.pdf",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "152/5496",
+            "ARTICLE.doi": "10.1109/BigData.2017.8258208",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "213/1171",
+            "ARTICLE.doi": "10.1109/BigData.2017.8258208",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "176/5023",
+            "ARTICLE.doi": "10.1109/BigData.2017.8258208",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1109/BigData.2017.8258208",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/BigData.2017.8258208",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "f/MirianHalfeldFerrariAlves",
+            "ARTICLE.doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "26/3914",
+            "ARTICLE.doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "20/8212",
+            "ARTICLE.doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "72/5025",
+            "ARTICLE.doi": "10.1109/iThings-GreenCom-CPSCom-SmartData.2017.171",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "138/1224",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "138/1161",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "73/2374",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "d/JeromeDarmont",
+            "ARTICLE.doi": "http://arxiv.org/abs/1701.05099",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "135/1832",
+            "ARTICLE.doi": "10.1007/978-3-662-49534-6_2",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-662-49534-6_2",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "r/PRigaux",
+            "ARTICLE.doi": "10.1007/978-3-662-49534-6_2",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "176/5023",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-1558/paper39.pdf",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-1558/paper39.pdf",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "https://ceur-ws.org/Vol-1558/paper39.pdf",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "160/1078",
+            "ARTICLE.doi": "10.1007/978-3-319-57741-8_4",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-319-57741-8_4",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "80/4976",
+            "ARTICLE.doi": "10.1007/978-3-319-57741-8_4",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "h/MohandSaidHacid",
+            "ARTICLE.doi": "10.1007/978-3-319-57741-8_4",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "09/7833",
+            "ARTICLE.doi": "10.1016/j.is.2013.08.005",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1016/j.is.2013.08.005",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "62/2885",
+            "ARTICLE.doi": "10.1016/j.is.2013.08.005",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "10/3832",
+            "ARTICLE.doi": "10.1016/j.is.2013.08.005",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "138/1224",
+            "ARTICLE.doi": "10.1007/978-3-319-43862-7_3",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-319-43862-7_3",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/DominiqueLaurent",
+            "ARTICLE.doi": "10.1007/978-3-319-43862-7_3",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "s/NicolasSpyratos",
+            "ARTICLE.doi": "10.1007/978-3-319-43862-7_3",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "09/7833",
+            "ARTICLE.doi": "10.1109/Trustcom.2015.569",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/Trustcom.2015.569",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "62/2885",
+            "ARTICLE.doi": "10.1109/Trustcom.2015.569",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "10/3832",
+            "ARTICLE.doi": "10.1109/Trustcom.2015.569",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "181/8380",
+            "ARTICLE.doi": "10.1007/978-3-319-41576-5_6",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "158/5093",
+            "ARTICLE.doi": "10.1007/978-3-319-41576-5_6",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "176/5023",
+            "ARTICLE.doi": "10.1007/978-3-319-41576-5_6",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1007/978-3-319-41576-5_6",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-319-41576-5_6",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "138/1224",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "138/1161",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "73/2374",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "d/JeromeDarmont",
+            "ARTICLE.doi": "10.4018/ijdwm.2014100101",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "09/7833",
+            "ARTICLE.doi": "10.3166/tsi.33.711-737",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.3166/tsi.33.711-737",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "62/2885",
+            "ARTICLE.doi": "10.3166/tsi.33.711-737",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "10/3832",
+            "ARTICLE.doi": "10.3166/tsi.33.711-737",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "50/10537",
+            "ARTICLE.doi": "10.1145/2536669.2536678",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/2536669.2536678",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1145/2536669.2536678",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "120/6757",
+            "ARTICLE.doi": "10.1145/2536669.2536678",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/567",
+            "ARTICLE.doi": "10.1145/2536669.2536678",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "135/1832",
+            "ARTICLE.doi": "10.1145/2501928.2501932",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/2501928.2501932",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "r/PRigaux",
+            "ARTICLE.doi": "10.1145/2501928.2501932",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "138/1224",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "138/1161",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "73/2374",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "d/JeromeDarmont",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001895",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "138/1224",
+            "ARTICLE.doi": "10.1007/978-3-319-08732-0_3",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-319-08732-0_3",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/DominiqueLaurent",
+            "ARTICLE.doi": "10.1007/978-3-319-08732-0_3",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "s/NicolasSpyratos",
+            "ARTICLE.doi": "10.1007/978-3-319-08732-0_3",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "15/6057",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "84/6869",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "138/9184",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "l/DominiqueLaurent",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "s/NicolasSpyratos",
+            "ARTICLE.doi": "10.1145/2542050.2542089",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "18/4558",
+            "ARTICLE.doi": "10.1007/978-3-642-30633-4_3",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "71/6756",
+            "ARTICLE.doi": "10.1007/978-3-642-30633-4_3",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-30633-4_3",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "00/4292",
+            "ARTICLE.doi": "10.1007/978-3-642-30633-4_3",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "120/6757",
+            "ARTICLE.doi": "10.1145/2347673.2347675",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/2347673.2347675",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "g/LeGruenwald",
+            "ARTICLE.doi": "10.1145/2347673.2347675",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "116/4833",
+            "ARTICLE.doi": "10.1145/2320765.2320788",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "10.1145/2320765.2320788",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/2320765.2320788",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "d/JeromeDarmont",
+            "ARTICLE.doi": "10.1145/2320765.2320788",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-40140-4_3",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "l/DominiqueLaurent",
+            "ARTICLE.doi": "10.1007/978-3-642-40140-4_3",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "s/NicolasSpyratos",
+            "ARTICLE.doi": "10.1007/978-3-642-40140-4_3",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "18/4558",
+            "ARTICLE.doi": "10.1109/NOMS.2012.6211905",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1109/NOMS.2012.6211905",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "00/4292",
+            "ARTICLE.doi": "10.1109/NOMS.2012.6211905",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.3166/isi.16.6.139-162",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "10.3166/isi.16.6.139-162",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "18/4558",
+            "ARTICLE.doi": "10.4108/icst.collaboratecom.2011.247093",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.4108/icst.collaboratecom.2011.247093",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "00/4292",
+            "ARTICLE.doi": "10.4108/icst.collaboratecom.2011.247093",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1002/cpe.1552",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.1002/cpe.1552",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "10.1002/cpe.1552",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001507",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "http://editions-rnti.fr/?inprocid=1001507",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "38/6122",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_2",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_2",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_2",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_2",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_3",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "87/3974",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_3",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "67/8355",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_5",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "95/6334",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_5",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "59/8355",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_5",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "29/7270",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_5",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-15108-8_5",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "49/7267",
+            "ARTICLE.doi": "10.1007/978-3-642-03715-3_5",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "95/6334",
+            "ARTICLE.doi": "10.1007/978-3-642-03715-3_5",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "29/7270",
+            "ARTICLE.doi": "10.1007/978-3-642-03715-3_5",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-642-03715-3_5",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/1620432.1620456",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "55/1407",
+            "ARTICLE.doi": "10.1145/1620432.1620456",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/1739268.1739282",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "55/1407",
+            "ARTICLE.doi": "10.1145/1739268.1739282",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.29375/25392115.1027",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.29375/25392115.1027",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "10.29375/25392115.1027",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "10.29375/25392115.1027",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "10.1007/978-3-540-85176-9_4",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-540-85176-9_4",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.1007/978-3-540-85176-9_4",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "38/6122",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "65/1620",
+            "ARTICLE.doi": "10.1007/978-3-540-74469-6_17",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "65/1620",
+            "ARTICLE.doi": "",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "38/6122",
+            "ARTICLE.doi": "",
+            "position": 4
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "",
+            "position": 5
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "",
+            "position": 6
+        },
+        {
+            "RESEARCHER.PID": "11/2374",
+            "ARTICLE.doi": "10.1145/1101499.1101502",
+            "position": 1
+        },
+        {
+            "RESEARCHER.PID": "03/2772",
+            "ARTICLE.doi": "10.1145/1101499.1101502",
+            "position": 2
+        },
+        {
+            "RESEARCHER.PID": "l/CyrilLabbe",
+            "ARTICLE.doi": "10.1145/1101499.1101502",
+            "position": 3
+        },
+        {
+            "RESEARCHER.PID": "r/CRoncancio",
+            "ARTICLE.doi": "10.1145/1101499.1101502",
+            "position": 4
+        }
+    ],
+    "TYPE_PUBLICATION": [
+        {
+            "id": 1,
+            "nom": "Conference And Workshop Papers"
+        },
+        {
+            "id": 2,
+            "nom": "Journal Articles"
+        },
+        {
+            "id": 3,
+            "nom": "Data and Artifacts"
+        },
+        {
+            "id": 4,
+            "nom": "Informal and Other Publications"
         }
     ]
 }
